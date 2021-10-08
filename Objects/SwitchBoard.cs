@@ -2,7 +2,7 @@
 
 namespace CommandPatternExample.Objects
 {
-    public class SwitchBoard
+    public static class SwitchBoard
     {
         public static DeviceButton GetButtonPressed(ElectronicDevice device)
         {
